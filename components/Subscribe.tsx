@@ -51,8 +51,7 @@ export default function Subscribe() {
         Subscribe to the newsletter
       </p>
       <p className="my-1 text-gray-800 dark:text-gray-200 font-light">
-        Get emails from me about web development, tech, and early access to new
-        articles.
+        Get emails from me about Self Improvement, startups and behind-the-scenes view on my life.
       </p>
       <form className="relative my-4" onSubmit={subscribe}>
         <input
