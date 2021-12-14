@@ -13,15 +13,15 @@ export default function Home({ videos }) {
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-              Lee Robinson
+              Yash Jain
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Head of Developer Relations at{' '}
-              <span className="font-semibold">Vercel</span>
+              Designer and Front-End Developer at{' '}
+              <span className="font-semibold">Favy</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              Helping developers build a faster web. Teaching about web
-              development, serverless, and React / Next.js.
+            Building projects on the internet. Sharing Lessons on Self Improvement
+          and startups.
             </p>
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -35,7 +35,7 @@ export default function Home({ videos }) {
           </div>
         </div>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-          Featured Posts
+          Best Posts
         </h3>
         <div className="flex gap-6 flex-col md:flex-row">
           <BlogPostCard
