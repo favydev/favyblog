@@ -41,7 +41,7 @@ export default function Subscribe() {
     inputEl.current.value = '';
     setForm({
       state: Form.Success,
-      message: `Hooray! You're now on the list.`
+      message: `Hooray! Check your mail.`
     });
   };
 
