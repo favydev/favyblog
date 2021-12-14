@@ -4,7 +4,7 @@ import StacksLayout from 'layouts/stack';
 import { allOtherPages } from '.contentlayer/data';
 import type { OtherPage } from '.contentlayer/types';
 
-export default function stack({ body: { code } }: OtherPage) {
+export default function useStack({ body: { code } }: OtherPage) {
   const Component = useMDXComponent(code);
 
   return (
@@ -15,7 +15,7 @@ export default function stack({ body: { code } }: OtherPage) {
 }
 
 export async function getStaticProps() {
-  const stack = allOtherPages.find((page) => page.slug === 'stack')!;
+  const useStack = allOtherPages.find((page) => page.slug === 'stack')!;
 
-  return { props: stack };
+  return { props: useStack };
 }
