@@ -12,7 +12,7 @@ export default function NewsletterLayout({
 }: PropsWithChildren<{ newsletter: Newsletter }>) {
   return (
     <Container
-      title={`${newsletter.title} – Lee Robinson`}
+      title={`${newsletter.title} – Yash Jain`}
       description={newsletter.summary}
       date={new Date(newsletter.publishedAt).toISOString()}
       type="article"

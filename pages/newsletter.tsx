@@ -7,8 +7,8 @@ import { pick } from 'lib/utils';
 export default function Newsletter({ newsletters }) {
   return (
     <Container
-      title="Newsletter – Lee Robinson"
-      description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
+      title="Newsletter – Yash Jain"
+      description="Thoughts on Self Improvement, startups, tech and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
@@ -17,7 +17,7 @@ export default function Newsletter({ newsletters }) {
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           My newsletter provides a behind-the-scenes look into what I'm working
           on and writing about. I frequently share some of my favorite articles
-          I've read, as well as anything fascinating about technology.
+          I've read, as well as anything that facinates me.
         </p>
         <Subscribe />
         <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
