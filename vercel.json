@@ -23,6 +23,10 @@
   ],
   "redirects": [
     {
+      "source": "/avatar.jpg",
+      "destination": "/avatar.jpg"
+    },
+    {
       "source": "/LeeRobinson.pdf",
       "destination": "/robinson-resume-2019.pdf"
     },
