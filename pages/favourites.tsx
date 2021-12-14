@@ -4,7 +4,7 @@ import FavsLayout from 'layouts/favourites';
 import { allOtherPages } from '.contentlayer/data';
 import type { OtherPage } from '.contentlayer/types';
 
-export default function favourites({ body: { code } }: OtherPage) {
+export default function useFavs({ body: { code } }: OtherPage) {
   const Component = useMDXComponent(code);
 
   return (
@@ -15,7 +15,7 @@ export default function favourites({ body: { code } }: OtherPage) {
 }
 
 export async function getStaticProps() {
-  const favourites = allOtherPages.find((page) => page.slug === 'favourites')!;
+  const useFavs = allOtherPages.find((page) => page.slug === 'favourites')!;
 
-  return { props: favourites };
+  return { props: useFavs };
 }
