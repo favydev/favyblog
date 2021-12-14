@@ -16,8 +16,7 @@ export default function Home({ videos }) {
               Yash Jain
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Designer and Front-End Developer at{' '}
-              <span className="font-semibold">Favy</span>
+              Thinker, Designer and Front-End Developer
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
             Building projects on the internet. Sharing Lessons on Self Improvement
@@ -26,7 +25,7 @@ export default function Home({ videos }) {
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
             <Image
-              alt="Lee Robinson"
+              alt="Yash Jain"
               height={176}
               width={176}
               src="/avatar.jpg"
