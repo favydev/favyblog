@@ -1,21 +1,21 @@
 import { useMDXComponent } from 'next-contentlayer/hooks';
 import components from 'components/MDXComponents';
-import UsesLayout from 'layouts/uses';
+import StacksLayout from 'layouts/stack';
 import { allOtherPages } from '.contentlayer/data';
 import type { OtherPage } from '.contentlayer/types';
 
-export default function Uses({ body: { code } }: OtherPage) {
+export default function stack({ body: { code } }: OtherPage) {
   const Component = useMDXComponent(code);
 
   return (
-    <UsesLayout>
+    <StacksLayout>
       <Component components={components as any} />
-    </UsesLayout>
+    </StacksLayout>
   );
 }
 
 export async function getStaticProps() {
-  const uses = allOtherPages.find((page) => page.slug === 'uses')!;
+  const stack = allOtherPages.find((page) => page.slug === 'stack')!;
 
-  return { props: uses };
+  return { props: stack };
 }
