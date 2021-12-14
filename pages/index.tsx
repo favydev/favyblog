@@ -42,17 +42,17 @@ export default function Home({ videos }) {
         <br /> <br />
         Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.
         <br /><br />
-        Currenly I'm also reading
+        Currenly I'm also reading{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://minimalistentrepreneur.com/book"
-          className="text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
+          className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6"
         >
-          {' '}the Minimalist Entrepreneur{' '}
+          the Minimalist Entrepreneur
       
         </a>
-        by Sahil Lavingia. I'm loving it.
+        {' '}by Sahil Lavingia. I'm loving it.
         </p>
         
         <span className="h-8" />
