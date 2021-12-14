@@ -59,13 +59,10 @@
       "destination": "https://calendly.com/lee-vercel/30min"
     },
     {
-      "source": "/15",
-      "destination": "https://calendly.com/lee-vercel/15min"
+      "source": "/call",
+      "destination": "https://calendly.com/yashjaing"
     },
-    {
-      "source": "/youtube",
-      "destination": "https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw"
-    },
+
     {
       "source": "/live",
       "destination": "https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw/live"
