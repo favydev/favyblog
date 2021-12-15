@@ -51,7 +51,7 @@ export default function Subscribe() {
         Subscribe to the newsletter
       </p>
       <p className="my-1 text-gray-800 dark:text-gray-200 font-light">
-        Get emails from me about Self Improvement, startups and behind-the-scenes view on my life.
+        Get emails from me about behind-the-scenes view in my life as well as anything I discovered that facinates me.
       </p>
       <form className="relative my-4" onSubmit={subscribe}>
         <input
@@ -78,9 +78,9 @@ export default function Subscribe() {
         <p className="text-sm text-gray-800 dark:text-gray-200">
           {`${
             subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'
-          } subscribers – `}
+          } subscribers `}
           <Link href="/newsletter">
-            <a>34 issues</a>
+            <a></a>
           </Link>
         </p>
       )}
