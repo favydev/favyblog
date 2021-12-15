@@ -66,7 +66,7 @@ export default function MobileMenu() {
               <a className="flex w-auto pb-4">Blog</a>
             </Link>
           </li>
-
+          
           <li
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '275ms' }}
@@ -78,6 +78,15 @@ export default function MobileMenu() {
 
           <li
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '350ms' }}
+          >
+            <Link href="/favourites">
+              <a className="flex w-auto pb-4">Favourites</a>
+            </Link>
+          </li>
+          
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '300ms' }}
           >
             <Link href="/newsletter">
@@ -85,14 +94,6 @@ export default function MobileMenu() {
             </Link>
           </li>
 
-          <li
-            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-            style={{ transitionDelay: '350ms' }}
-          >
-            <Link href="/favourites">
-              <a className="flex w-auto pb-4">Favourites</a>
-            </Link>
-          </li>
         </ul>
       )}
     </>

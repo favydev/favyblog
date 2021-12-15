@@ -6,11 +6,10 @@ import Subscribe from 'components/Subscribe';
 import type { PropsWithChildren } from 'react';
 import type { Blog } from '.contentlayer/types';
 
-const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/main/data/blog/${slug}.mdx`;
+
 const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog/${slug}`
+  `https://twitter.com/intent/tweet?text=${encodeURIComponent(
+    `https://yashjaing.com/blog/${slug} by @yashjaing`
   )}`;
 
 export default function BlogLayout({
@@ -39,7 +38,7 @@ export default function BlogLayout({
               className="rounded-full"
             />
             <p className="ml-2 text-sm text-gray-700 dark:text-gray-300">
-              {'Yash Jain / '}
+              {'Yash Jain • '}
               {format(parseISO(post.publishedAt), 'MMMM dd, yyyy')}
             </p>
           </div>
@@ -60,16 +59,9 @@ export default function BlogLayout({
             target="_blank"
             rel="noopener noreferrer"
           >
-            {'Discuss on Twitter'}
+            {'If you liked this note Discuss on Twitter.'}
           </a>
-          {` • `}
-          <a
-            href={editUrl(post.slug)}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {'Edit on GitHub'}
-          </a>
+          
         </div>
       </article>
     </Container>

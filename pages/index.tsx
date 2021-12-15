@@ -2,11 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Container from '../components/Container';
-import BlogPostCard from '../components/BlogPostCard';
-import Subscribe from '../components/Subscribe';
-import VideoCard from '../components/VideoCard';
 
-export default function Home({ videos }) {
+export default function Home() {
   return (
     <Container>
       <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
@@ -34,7 +31,7 @@ export default function Home({ videos }) {
           </div>
         </div>
         
-        <h3 className="font-bold text-lg md:text-2xl tracking-tight mb-4 mt-14 text-black dark:text-white">
+        <h3 className="font-bold text-lg md:text-2xl tracking-tight mb-4 mt-12 text-black dark:text-white w-full">
         What I'm doing now?
         </h3>
         <p className="text-gray-700 dark:text-gray-200 mb-4">I share my ideas almost every day. My main social platform is Twitter. But 
@@ -53,6 +50,17 @@ export default function Home({ videos }) {
       
         </a>
         {' '}by Sahil Lavingia. I'm loving it.
+        <br /><br />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://minimalistentrepreneur.com/book"
+          className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6"
+        >
+          Here 
+      
+        </a>
+        {' '}are all Articles I've written so far. Have fun Navigating around this small garden.
         </p>
         
         <span className="h-8" />
