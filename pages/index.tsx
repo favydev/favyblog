@@ -51,15 +51,8 @@ export default function Home() {
         </a>
         {' '}by Sahil Lavingia. I'm loving it.
         <br /><br />
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://minimalistentrepreneur.com/book"
-          className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6"
-        >
-          Here 
-      
-        </a>
+        <Link href="/blog">
+        <a className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6">Here</a></Link>
         {' '}are all Articles I've written so far. Have fun Navigating around this small garden.
         </p>
         
