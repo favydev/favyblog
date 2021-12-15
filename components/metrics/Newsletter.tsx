@@ -8,7 +8,7 @@ export default function NewsletterCard() {
   const { data } = useSWR<Subscribers>('/api/subscribers', fetcher);
 
   const subscriberCount = new Number(data?.count);
-  const link = 'https://www.getrevue.co/profile/leerob';
+  const link = 'https://www.getrevue.co/profile/yashjaing';
 
   return (
     <MetricCard
