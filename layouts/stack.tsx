@@ -11,7 +11,7 @@ export default function StacksLayout({ children }) {
           Stack
         </h1>
         <p className="text-gray-700 dark:text-gray-300 mt-2 mb-8">
-          Here's what tech and apps I'm currently using for day to day life, writing, code, and living online.
+          Here's what apps I'm using to create, consume, connect and co-ordinate.
         </p>
         <div className="prose dark:prose-dark w-full">{children}</div>
       </article>
