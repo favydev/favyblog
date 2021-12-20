@@ -12,46 +12,36 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            Hey, I’m Lee. I'm a developer, writer, and the creator of&nbsp;
+            Hey, I’m Yash. I'm a Designer, writer, and Front-End Developer.
+            I'm Building&nbsp;
             <a
-              href="https://masteringnextjs.com"
+              href="https://heyfavy.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Mastering Next.js
+              favy
             </a>
             &nbsp;and&nbsp;
             <a
-              href="https://react2025.com"
+              href="https://favelent.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              React 2025.
+              favelent.
             </a>
-            &nbsp;I work at ▲Vercel as the Head of Developer Relations.
           </p>
           <p>
-            I’ve spoken across the country at conferences and meet-ups about
-            front-end development, design, and recruiting. I write about
-            development, tech careers, and my personal life on&nbsp;
-            <Link href="/newsletter">
-              <a>my newsletter.</a>
-            </Link>
+            I’ve built and designed several products products with no-code. I also dabble with 
+            Front-End Development, NextJS and Jamstack. Apart from that I'm a creator and i use to share my ideas
+            on twitter and this blog, about startups, philosophy, psychology and life.
           </p>
           <p>
-            I grew up in small-town Iowa and went to school at Iowa State,
-            graduating with a degree in Computer Engineering. I spend my free
-            time playing music, creating videos, and enjoying time with friends
-            and family in Des Moines, IA.
+            I grew up in a small-town in India and i'm currently in high school.
+            But most of the time, don't open my school books and spend time building
+            fun and creative things on the internet.
           </p>
         </div>
         <Timeline />
-        <iframe
-          height="280"
-          src="https://www.google.com/maps/d/embed?mid=1QOGi-u8d4vwoQ4vC4zQjKxrSfsDIQdOK&hl=en"
-          title="Lee's Travel Map"
-          width="100%"
-        />
       </div>
     </Container>
   );

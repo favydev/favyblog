@@ -46,11 +46,11 @@ export default function Subscribe() {
   };
 
   return (
-    <div className="border border-blue-200 rounded-lg p-6 my-4 w-full dark:border-gray-700 bg-blue-50 dark:bg-gray-800">
+    <div className="border border-blue-200 rounded-lg p-6 my-4 w-full dark:border-gray-700 bg-blue-50 dark:bg-gray-900">
       <p className="text-lg md:text-xl font-medium text-gray-900 dark:text-gray-100">
         Subscribe to the newsletter
       </p>
-      <p className="my-1 text-gray-800 dark:text-gray-200 font-light">
+      <p className="my-1 text-gray-800 dark:text-gray-200">
         Get emails from me about behind-the-scenes view in my life as well as anything I discovered that facinates me.
       </p>
       <form className="relative my-4" onSubmit={subscribe}>

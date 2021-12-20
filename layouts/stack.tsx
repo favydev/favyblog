@@ -7,7 +7,7 @@ export default function StacksLayout({ children }) {
       description="Here's what tech I'm currently using for coding, videos, and music."
     >
       <article className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+        <h1 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Stack
         </h1>
         <p className="text-gray-700 dark:text-gray-300 mt-2 mb-8">

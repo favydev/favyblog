@@ -125,23 +125,14 @@ const FullTimeline = () => (
       </Step>
     </ul>
     <Divider />
-    <Year>1998</Year>
+    <Year>2010</Year>
     <ul>
       <Step title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
+        I remember days trying to log into the coputer, shut it down, turn it own and flying through the Operating system.
       </Step>
     </ul>
     <Divider />
-    <Year>1997</Year>
-    <ul>
-      <Step title="Became a Pokémon Master">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1993</Year>
+    <Year>2004</Year>
     <ul>
       <Step title="Born 👶🏼🍼" />
     </ul>

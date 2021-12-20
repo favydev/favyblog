@@ -17,9 +17,9 @@ export default function Footer() {
       <hr className="w-full border-1 border-gray-200 dark:border-gray-700 mb-6" />
       <div className="w-full max-w-2xl">
         <div className="flex justify-between">
-          <p className='text-gray-500 hover:text-gray-600 transition'>• 2049</p>
+          <p className='text-gray-500 hover:text-gray-600 transition'>⌘</p>
           <ExternalLink href="https://twitter.com/yashjaing">
-            Say hi on twitter 👋
+            Say hi on twitter
           </ExternalLink>
         </div>
         

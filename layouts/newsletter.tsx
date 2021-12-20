@@ -18,7 +18,7 @@ export default function NewsletterLayout({
       type="article"
     >
       <article className="flex flex-col items-start justify-center w-full max-w-2xl mx-auto mb-16">
-        <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+        <h1 className="mb-6 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
           {newsletter.title}
         </h1>
         <div className="flex flex-col items-start justify-between w-full mt-2 md:flex-row md:items-center">

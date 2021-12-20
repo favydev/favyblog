@@ -68,10 +68,8 @@ export default function Container(props) {
         )}
       </Head>
       <div className="flex flex-col justify-center px-5">
-        <nav className="flex items-center justify-between w-full relative max-w-full border-gray-200 dark:border-gray-700 mx-auto pt-5 pb-8 sm:pb-16  text-gray-900 bg-gray-0  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
-          <a href="#skip" className="skip-nav">
-            Skip to content
-          </a>
+        <nav className="flex items-center justify-between w-full max-w-full relative border-gray-200 dark:border-gray-700 mx-auto pt-5 pb-14 sm:pb-20 text-gray-900 bg-gray-0  dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
+          
           <div className="ml-[-0.60rem]">
             <MobileMenu />
             <NavItem href="/" text="Home" />
