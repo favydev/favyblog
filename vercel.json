@@ -35,6 +35,10 @@
     {
       "source": "/notes",
       "destination": "/blog"
+    },
+    {
+      "source": "/code",
+      "destination": "https://code.yashjaing.com"
     }
     
   ]
