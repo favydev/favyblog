@@ -50,7 +50,7 @@ export default function Subscribe() {
       <p className="text-lg md:text-xl font-medium text-gray-900 dark:text-gray-100">
         Subscribe to the newsletter
       </p>
-      <p className="my-1 text-gray-800 dark:text-gray-200">
+      <p className="my-1 text-gray-600 dark:text-gray-400">
         Get emails from me about behind-the-scenes view in my life as well as anything I discovered that facinates me.
       </p>
       <form className="relative my-4" onSubmit={subscribe}>
