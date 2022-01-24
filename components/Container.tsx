@@ -38,9 +38,9 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: `Yash Jain`,
+    title: `Favy`,
     description: `Thinker, Designer and Front-End Developer`,
-    image: 'https://yashjaing.com/static/images/banner.png',
+    image: 'https://blog.heyfavy.com/static/images/banner.png',
     type: 'website',
     ...customMeta
   };
@@ -54,7 +54,7 @@ export default function Container(props) {
         <meta property="og:url" content={`https://yashjainsite.vercel.app${router.asPath}`} />
         <link rel="canonical" href={`https://yashjainsite.vercel.app${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Yash Jain" />
+        <meta property="og:site_name" content="Favy" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
@@ -72,10 +72,7 @@ export default function Container(props) {
           
           <div className="ml-[-0.60rem]">
             <MobileMenu />
-            <NavItem href="/" text="Home" />
-            <NavItem href="/blog" text="Blog" />
-            <NavItem href="/stack" text="Stack" />
-            <NavItem href="/favourites" text="Favourites" />
+            <NavItem href="/" text="Blog" />
           </div>
           <button
             aria-label="Toggle Dark Mode"
