@@ -3,18 +3,29 @@ import useSWR from 'swr';
 
 import fetcher from 'lib/fetcher';
 import type { Blog } from '.contentlayer/types';
+import Image from 'next/image';
 
 export default function BlogPost({
   title,
   summary,
+  image,
   slug
-}: Pick<Blog, 'title' | 'summary' | 'slug'>) {
+}: Pick<Blog, 'title' | 'summary' | 'image' | 'slug'>) {
   
 
   return (
     <Link href={`/blog/${slug}`}>
       <a className="w-full">
         <div className="w-full mb-8">
+        <div className="w-full w-min-full">
+            <Image
+              alt="Yash Jain"
+              height={904}
+              width={1820}
+              src={ image }
+              className="rounded-lg mb-4"
+            />
+          </div>
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-2 text-lg font-medium text-gray-900 md:text-xl dark:text-gray-100 tracking-tight">
               {title}
