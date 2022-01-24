@@ -12,7 +12,7 @@ export default function NewsletterLayout({
 }: PropsWithChildren<{ newsletter: Newsletter }>) {
   return (
     <Container
-      title={`${newsletter.title} – Yash Jain`}
+      title={`${newsletter.title} – Favy`}
       description={newsletter.summary}
       date={new Date(newsletter.publishedAt).toISOString()}
       type="article"
@@ -24,7 +24,7 @@ export default function NewsletterLayout({
         <div className="flex flex-col items-start justify-between w-full mt-2 md:flex-row md:items-center">
           <div className="flex items-center">
             <Image
-              alt="Yash Jain"
+              alt= {newsletter.title}
               height={24}
               width={24}
               src="/avatar.jpg"

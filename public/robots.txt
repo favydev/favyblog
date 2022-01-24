@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://yashjaing.com/sitemap.xml
+Sitemap: https://blog.heyfavy.com/sitemap.xml

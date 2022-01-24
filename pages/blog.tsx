@@ -21,8 +21,8 @@ export default function Blog({
 
   return (
     <Container
-      title="Blog – Yash Jain"
-      description="I write about everything that interests me. Self Improvement, psychology, philosophy, startups and tech."
+      title="Favy"
+      description="Here we share ideas, tips and inspiration to grow your personal brand on the internet."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <h1 className="mb-6 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">

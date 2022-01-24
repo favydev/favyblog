@@ -4,15 +4,15 @@ import { allBlogs } from '.contentlayer/data';
 
 async function generate() {
   const feed = new RSS({
-    title: 'Yash Jain',
-    site_url: 'https://yashjaing.com',
-    feed_url: 'https://yashjaing.com/feed.xml'
+    title: 'Favy Blog',
+    site_url: 'https://blog.heyfavy.com',
+    feed_url: 'https://blog.heyfavy.com/feed.xml'
   });
 
   allBlogs.map((post) => {
     feed.item({
       title: post.title,
-      url: `https://yashjaing.com/blog/${post.slug}`,
+      url: `https://blog.heyfavy.com/blog/${post.slug}`,
       date: post.publishedAt,
       description: post.summary
     });

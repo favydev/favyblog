@@ -19,7 +19,7 @@ export default function BlogPost({
         <div className="w-full mb-8">
         <div className="w-full w-min-full">
             <Image
-              alt="Yash Jain"
+              alt= { title }
               height={904}
               width={1820}
               src={ image }

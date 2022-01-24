@@ -22,24 +22,6 @@
     }
   ],
   "redirects": [
-
-    {
-      "source": "/resume",
-      "destination": "https://read.cv/yj"
-    },
-
-    {
-      "source": "/call",
-      "destination": "https://calendly.com/yashjaing"
-    },
-    {
-      "source": "/notes",
-      "destination": "/blog"
-    },
-    {
-      "source": "/code",
-      "destination": "https://code.yashjaing.com"
-    }
     
   ]
 }

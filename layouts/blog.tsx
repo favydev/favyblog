@@ -9,7 +9,7 @@ import type { Blog } from '.contentlayer/types';
 
 const discussUrl = (slug) =>
   `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    `https://yashjaing.com/blog/${slug} by @yashjaing`
+    `https://blog.heyfavy.com/blog/${slug} by @yashjaing`
   )}`;
 
 export default function BlogLayout({
@@ -18,9 +18,9 @@ export default function BlogLayout({
 }: PropsWithChildren<{ post: Blog }>) {
   return (
     <Container
-      title={`${post.title} – Yash Jain `}
+      title={`${post.title} – Favy `}
       description={post.summary}
-      image={`https://yashjaing.com${post.image}`}
+      image={`https://blog.heyfavy.com${post.image}`}
       date={new Date(post.publishedAt).toISOString()}
       type="article"
     >

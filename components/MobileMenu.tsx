@@ -4,6 +4,17 @@ import useDelayedRender from 'use-delayed-render';
 import { useState, useEffect } from 'react';
 import styles from 'styles/mobile-menu.module.css';
 
+const ExternalLink = ({ href, children }) => (
+  <a
+  className='flex w-auto pb-4'
+    target="_blank"
+    rel="noopener noreferrer"
+    href={href}
+  >
+    {children}
+  </a>
+);
+
 export default function MobileMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { mounted: isMenuMounted, rendered: isMenuRendered } = useDelayedRender(
@@ -57,32 +68,23 @@ export default function MobileMenu() {
               <a className="flex w-auto pb-4">Home</a>
             </Link>
           </li>
-
-          <li
-            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-            style={{ transitionDelay: '250ms' }}
-          >
-            <Link href="/blog">
-              <a className="flex w-auto pb-4">Blog</a>
-            </Link>
-          </li>
           
           <li
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '275ms' }}
           >
-            <Link href="/stack">
-              <a className="flex w-auto pb-4">Stack</a>
-            </Link>
+            <ExternalLink href="https://heyfavy.com">
+            Support
+          </ExternalLink>
           </li>
 
           <li
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '350ms' }}
           >
-            <Link href="/favourites">
-              <a className="flex w-auto pb-4">Favourites</a>
-            </Link>
+            <ExternalLink href="https://heyfavy.com">
+            Favy
+          </ExternalLink>
           </li>
           
           <li
@@ -92,6 +94,15 @@ export default function MobileMenu() {
             <Link href="/newsletter">
               <a className="flex w-auto pb-4">Newsletter</a>
             </Link>
+          </li>
+
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '300ms' }}
+          >
+            <ExternalLink href="https://twitter.com/heyfavy">
+            Twitter
+          </ExternalLink>
           </li>
 
         </ul>
